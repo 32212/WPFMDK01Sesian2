@@ -29,7 +29,7 @@
                 <DataGridTextColumn Header="Номер" Binding="{Binding SubscriberNomer}" Width="1*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Фамилия" Binding="{Binding ForNamme}" Width="2*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Номер договора" Binding="{Binding Contracts.ContractNumber}" Width="2*"></DataGridTextColumn>
-                <DataGridTextColumn Header="ЛС" Binding="{Binding  Contracts.PersonalAccount}" Width="1*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Лицевой счет" Binding="{Binding  Contracts.PersonalAccount}" Width="2*"></DataGridTextColumn>
                 <DataGridTextColumn Header="Услуги" Binding="{Binding  Service}" Width="2*"></DataGridTextColumn>
             </DataGrid.Columns>
         </DataGrid>
